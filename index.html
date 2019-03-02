@@ -3,13 +3,32 @@
 <head>
 <style>
     .className{
-        background-color: red;  //цвет сзади элемента
-        color: blue;            //цвет букв
+        background-color: red;  
+        color: blue;            
 }    
+    
+    .pstyle{
+        background-color: black;
+        color: green;
+    }
+    .pstyleFonts{
+        background-color: black;
+        color: green;
+        font-family: Geneva;
+        font-size: 34px;
+        font-stretch: condensed;
+        font-style: oblique;
+        font-variant: small-caps;
+        font-weight: bolder;
+        
+        float: right;                   //прилипание к какой то стороне
+    }
 </style>
 </head>
 
 <body>
-    <p><span class="className">Hello</span> from cs</p>
+    <p><span class="pstyleFonts">Hello</span><span  class="pstyle"> from css</span></p>
+    <p><span class="className">Hello</span><span  class="pstyle"> from css</span></p>
+    <p class="pstyle"><span class="className">Hello</span>from css</p>
 </body>
     </html>
