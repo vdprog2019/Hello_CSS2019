@@ -2,33 +2,37 @@
 <html>
 <head>
 <style>
-    .className{
-        background-color: red;  
-        color: blue;            
-}    
-    
-    .pstyle{
-        background-color: black;
-        color: green;
-    }
-    .pstyleFonts{
-        background-color: black;
-        color: green;
-        font-family: Geneva;
-        font-size: 34px;
-        font-stretch: condensed;
-        font-style: oblique;
-        font-variant: small-caps;
-        font-weight: bolder;
+    .title{
+        font-size: 60px;
+        font-weight: 900;
+        color: blueviolet;
+        background-color: blanchedalmond;
+        font-family: fantasy;
+        float: right;
         
-        float: right;                   //прилипание к какой то стороне
+    }
+    .description{
+        font-size: 20px;
+        font-weight: 900;
+        color: blueviolet;
+        background-color: blanchedalmond;
+        font-family: fantasy;
+        float: left;;
+    }
+    .firstLetterOfWord{
+        color: red;
+        font-size: 50px;
+        font-style: italic;
     }
 </style>
 </head>
 
 <body>
-    <p><span class="pstyleFonts">Hello</span><span  class="pstyle"> from css</span></p>
-    <p><span class="className">Hello</span><span  class="pstyle"> from css</span></p>
-    <p class="pstyle"><span class="className">Hello</span>from css</p>
+ <p class="title">New picture</p>
+ <img src="font-gost-1.gif" width="935px" alt="здесь должна быть картинка"> 
+    <p class="description"><span class="firstLetterOfWord">Э</span>то крутое фото!</p>
+        <br/>
+        <br/> 
+    <p class="description"><span class="firstLetterOfWord">Э</span>то крутое фото!</p>
 </body>
     </html>
